@@ -1,0 +1,42 @@
+.bC{background-color: rgb(62, 189, 231);}
+.bcInd{background-color:lightslategray;}
+.form{
+    border:4px solid black; 
+}
+
+.pad{
+    padding: 10px;
+}
+
+.h{
+    height: 228px!important;
+}
+
+.padCero{
+    /* padding-left: 0px;
+    padding-right: 0px; */
+    padding-bottom: 0px;
+}
+
+.tituHome{
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+
+/* @media (min-width:1024px){
+    .tituHome{transform: translate(-10px,-221px);
+        font-size: 70px;}
+}
+
+@media (min-width:769px) and (max-width:1023px){
+    .tituHome{transform: translate(-10px,-185px);
+    font-size: 70px;}
+}
+
+@media (max-width:768px){
+    .tituHome{transform: translate(-10px,-80px);
+    font-size: 40px;}
+} */
+
