@@ -7,23 +7,20 @@
 .pad{
     padding: 10px;
 }
+.pB{
+    padding-bottom: 35px;
+}
+
 
 .h{
     height: 228px!important;
 }
 
-.padCero{
-    /* padding-left: 0px;
-    padding-right: 0px; */
-    padding-bottom: 0px;
-}
-
 .pCero{
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
 }
 
-.titu{
+.titu, .tituClases{
     color: black;
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
@@ -31,17 +28,19 @@
 
 
 @media (min-width:1024px){
-    .titu{transform: translate(-10px,-231px);
-        font-size: 70px;}
+    .titu, .tituClases{transform: translate(-10px,-231px);
+    font-size: 70px;}
 }
 
 @media (min-width:769px) and (max-width:1023px){
-    .titu{transform: translate(-10px,-185px);
+    .titu, .tituClases{transform: translate(-10px,-185px);
     font-size: 60px;}
 }
 
 @media (max-width:768px){
-    .titu{transform: translate(-10px,-80px);
+    .titu, .tituClases{transform: translate(-10px,-80px);
     font-size: 40px;}
+    .tituClases{transform: translate(-10px,-80px);
+    font-size: 25px;}
 } 
 

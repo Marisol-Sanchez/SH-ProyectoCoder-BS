@@ -9,8 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <title>Home</title>
+    <!-- metas -->
+    <meta name="description" content="Swimming Club es un club de deportes acuáticos que ofrece una amplia varieda de programas aptos para todos.">
+    <meta name="keywords" content="Club, deportes acuáticos, enseñanza, clases, inclusión, natación, waterpolo, nado sincronizado."> 
     <!-- LINK BOOTSTRAP CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- LINK CSS AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- LINK CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -51,26 +56,32 @@
 
         <div class="row">
             <div class="col-xl-12 col-12 pCero">
-                <img src="imagenes/header1.jpg" alt="" class="img-fluid">
+                <img src="imagenes/homeHeader.jpg" alt="" class="img-fluid">
             </div>
         </div>
 
         <div class="text-center ">
+            <div class="col-xl-12 col-12 pCero">
                 <p class="titu"> SWIMMING HOUSE </p>
+            </div>   
         </div>
 
         <div class="row text-center">
-            <div class="col-xl-12 col-12">
+            <div class="col-xl-12 col-12 pB" data-aos="fade-up" data-aos-duration="3000">
                 <h3> QUIENES SOMOS </h3>
-                <p> Swimming House es un club de deportes acuáticos que ha estado en la vanguardia de la enseñanza de deportes acuáticos durante más de 80 años. Ofrecemos programas especializados en natación, waterpolo y nado sincronizado para deportistas de todas las edades y niveles.
-                    Nuestra pasión por los deportes acuáticos se transmite de generación en generación. Estamos orgullosos de contar con un equipo de instructores altamente capacitados y apasionados que están dedicados a ayudar a nuestros estudiantes a alcanzar sus metas. Nuestros instructores están comprometidos a brindar una enseñanza personalizada y a orientar a nuestros estudiantes para que se sientan cómodos y seguros en el agua.
-                    Además, Swimming House ofrece una amplia variedad de programas, desde clases para principiantes hasta entrenamientos especializados para deportistas de élite. Nos aseguramos de que cada uno de nuestros miembros reciba la atención personalizada que necesita para alcanzar sus metas. También nos preocupamos por la inclusión, ofreciendo programas para personas con discapacidades físicas o mentales.
+                <p class="pB"> Swimming House es un club de deportes acuáticos que ha estado enseñando natación, waterpolo y nado sincronizado durante más de 80 años.
+                    Nuestro objetivo es transmitir la pasión por los deportes acuáticos de generación en generación y ayudar a deportistas de todas las edades 
+                    y niveles a alcanzar sus metas. Contamos con un equipo de instructores altamente capacitados y comprometidos en brindar una enseñanza 
+                    personalizada y orientar a los estudiantes para que se sientan cómodos y seguros en el agua. 
+                    Swimming House ofrece una amplia variedad de programas, desde clases para principiantes hasta entrenamientos especializados 
+                    para deportistas de élite. También se preocupan por la inclusión, ofreciendo programas para personas con discapacidades físicas o mentales.
                 </p>
                 <h3> ¿POR QUE ELEGIRNOS? </h3>
-                <p> Hay muchas razones por las que deberías elegir Swimming House como tu club de deportes acuáticos de elección. En primer lugar, nuestro enfoque en la enseñanza personalizada significa que recibirás atención individualizada y orientación de expertos en todo momento. Ya sea que seas un principiante o un deportista experimentado, nuestros instructores trabajarán contigo para identificar tus necesidades y objetivos y diseñar un programa que se adapte a ti.
-                    Además, nuestras instalaciones de primera categoría son incomparables. Contamos con piscinas climatizadas, áreas de entrenamiento especializadas y tecnología de última generación para garantizar que nuestros deportistas tengan todo lo que necesitan para tener éxito en su disciplina.
-                    En Swimming House, también nos enorgullecemos de nuestra comunidad. Nuestro club es un lugar donde los deportistas pueden conectarse con otros que comparten su pasión por el deporte y construir amistades duraderas. También ofrecemos una amplia variedad de programas y eventos sociales para que nuestros miembros puedan disfrutar de una experiencia completa en nuestro club.
-                    Por último, creemos que el deporte es una forma poderosa de mejorar la calidad de vida. Al elegir Swimming House, no solo tendrás la oportunidad de mejorar tus habilidades acuáticas, sino que también podrás experimentar los beneficios para la salud mental y física que provienen de la práctica deportiva regular. 
+                <p class="pB"> Swimming House ofrece enseñanza personalizada y experta en natación, waterpolo y nado sincronizado para todos los niveles. 
+                    Contamos con instalaciones de primera categoría, incluyendo piscinas climatizadas, áreas de entrenamiento especializadas y tecnología 
+                    de última generación. En nuestro club, los deportistas pueden conectarse con otros y construir amistades duraderas, y ofrecemos una 
+                    amplia variedad de programas y eventos sociales. Creemos en el poder del deporte para mejorar la calidad de vida, y en Swimming House 
+                    puedes mejorar tus habilidades acuáticas y experimentar los beneficios para la salud mental y física de la práctica deportiva regular.
                 </p>
                 <h3> ¡SUMATE! </h3>
             </div>
@@ -104,5 +115,10 @@
     </div>
     <!-- JAVASCRIPT BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
