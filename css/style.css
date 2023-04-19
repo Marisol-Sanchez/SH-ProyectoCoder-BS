@@ -25,7 +25,7 @@
 }
 
 
-/* @media (min-width:1024px){
+@media (min-width:1024px){
     .tituHome{transform: translate(-10px,-221px);
         font-size: 70px;}
 }
@@ -38,5 +38,5 @@
 @media (max-width:768px){
     .tituHome{transform: translate(-10px,-80px);
     font-size: 40px;}
-} */
+} 
 
