@@ -23,24 +23,21 @@ h1{
 .titu{
     color: black;
     font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
 }
 
 
 @media (min-width:1024px){
-    .titu, .tituClases{transform: translate(-10px,-231px);
+    .titu{transform: translate(-10px,-231px);
     font-size: 70px;}
 }
 
 @media (min-width:769px) and (max-width:1023px){
-    .titu, .tituClases{transform: translate(-10px,-185px);
+    .titu{transform: translate(-10px,-185px);
     font-size: 60px;}
 }
 
 @media (max-width:768px){
-    .titu, .tituClases{transform: translate(-10px,-80px);
+    .titu{transform: translate(-10px,-80px);
     font-size: 40px;}
-    .tituClases{transform: translate(-10px,-80px);
-    font-size: 25px;}
 } 
 
